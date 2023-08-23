@@ -1,3 +1,12 @@
+import NavBar from "@/component/navbar"
+import Header from "@/component/Header"
 export default function Page({ params, searchParams }) {
-    return <h1>My Page</h1>
+    return (
+        <div>
+            <div>
+            <NavBar/>
+            </div>
+            <Header/>
+        </div>
+    )
   }
