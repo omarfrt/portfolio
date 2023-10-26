@@ -7,7 +7,8 @@ import jlo from "../../public/jlo-nobg.png"
 
 const Wrapper = Styled.div`
 width: 553px;
-height: 360px; 
+height: 360px;
+border: 3px solid green; 
 `
 const VectGrey = Styled(Image)`
 position: absolute;
